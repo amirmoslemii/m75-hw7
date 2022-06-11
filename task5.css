@@ -1,0 +1,443 @@
+#main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.button {
+    width: 150px;
+    height: 40px;
+    color: white;
+    border: none;
+}
+
+#b1 {
+    background-color: blue;
+}
+
+#b1:hover {
+    width: 160px;
+    height: 50px;
+    background-color: red;
+    animation-name: b1;
+    animation-duration: 4s;
+    border-radius: 10px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes b1 {
+    0% {
+        background-color: red;
+    }
+
+    25% {
+        background-color: yellow;
+    }
+
+    50% {
+        background-color: blue;
+    }
+
+    100% {
+        background-color: green;
+    }
+}
+
+#b2 {
+    background-color: darkgreen;
+}
+
+#b2:hover {
+    background-color: darkgreen;
+    animation-name: b2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes b2 {
+    0% {
+        background-color: darkgreen;
+    }
+
+    50% {
+        background-color: rgba(54, 90, 124, 0.603);
+        color: black;
+        border-radius: 20px;
+    }
+
+    100% {
+        background-color: rgb(3, 37, 3);
+        color: rgb(255, 255, 255);
+        border-radius: 20px;
+    }
+}
+
+#b3 {
+    background-color: coral;
+}
+
+#b3:hover {
+    animation-name: b3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes b3 {
+    0% {
+        background-color: coral;
+        cursor: pointer;
+        width: 160px;
+        height: 40px;
+    }
+
+    50% {
+        background-color: rgba(229, 233, 15, 0.603);
+        color: black;
+        border-radius: 20px;
+        cursor: pointer;
+        width: 170px;
+        height: 50px;
+    }
+
+    100% {
+        background-color: rgb(226, 21, 147);
+        color: rgb(255, 255, 255);
+        border-radius: 20px;
+        cursor: pointer;
+        width: 180px;
+        height: 60px;
+    }
+}
+
+#b4 {
+    background-color: red;
+}
+
+#b4:hover {
+    animation-name: b4;
+    animation-duration: 3s;
+}
+
+@keyframes b4 {
+    0% {
+        background-color: red;
+    }
+
+    50% {
+        background-color: rgba(51, 233, 15, 0.603);
+        border-radius: 20px;
+    }
+
+    100% {
+        background-color: rgb(15, 56, 240);
+        border-radius: 20px;
+    }
+}
+
+#b5 {
+    background-color: rgb(0, 102, 255);
+}
+
+#b5:hover {
+    animation-name: b5;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes b5 {
+    0% {
+        background-color: rgb(0, 47, 255);
+        cursor: pointer;
+        width: 160px;
+        height: 40px;
+    }
+
+    50% {
+        background-color: rgba(229, 233, 15, 0.603);
+        color: black;
+        border-radius: 20px;
+        cursor: pointer;
+        width: 170px;
+        height: 50px;
+    }
+
+    100% {
+        background-color: rgb(226, 21, 147);
+        color: rgb(255, 255, 255);
+        border-radius: 20px;
+        cursor: pointer;
+        width: 180px;
+        height: 60px;
+    }
+}
+
+
+#b6 {
+    background-color: green;
+}
+
+#b6:hover {
+    animation-name: b6;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes b6 {
+    0% {
+        background-color: green;
+        cursor: pointer;
+        width: 160px;
+        height: 40px;
+    }
+
+    50% {
+        background-color: rgba(229, 233, 15, 0.603);
+        color: black;
+        border-radius: 20px;
+        cursor: pointer;
+        width: 170px;
+        height: 50px;
+    }
+
+    100% {
+        background-color: rgb(226, 21, 147);
+        color: rgb(255, 255, 255);
+        border-radius: 20px;
+        cursor: pointer;
+        width: 180px;
+        height: 60px;
+    }
+}
+
+
+#b7 {
+    background-color: coral;
+}
+
+#b7:hover {
+    animation-name: b7;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes b7 {
+    0% {
+        background-color: coral;
+        cursor: pointer;
+        width: 160px;
+        height: 40px;
+    }
+
+    50% {
+        background-color: rgba(229, 233, 15, 0.603);
+        color: black;
+        border-radius: 20px;
+        cursor: pointer;
+        width: 170px;
+        height: 50px;
+    }
+
+    100% {
+        background-color: rgb(226, 21, 147);
+        color: rgb(255, 255, 255);
+        border-radius: 20px;
+        cursor: pointer;
+        width: 180px;
+        height: 60px;
+    }
+}
+
+
+#b8 {
+    background-color: red;
+}
+
+#b8:hover {
+    animation-name: b8;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes b8 {
+    0% {
+        background-color: red;
+        cursor: pointer;
+        width: 160px;
+        height: 40px;
+    }
+
+    50% {
+        background-color: rgba(229, 233, 15, 0.603);
+        color: black;
+        border-radius: 20px;
+        cursor: pointer;
+        width: 170px;
+        height: 50px;
+    }
+
+    100% {
+        background-color: rgb(226, 21, 147);
+        color: rgb(255, 255, 255);
+        border-radius: 20px;
+        cursor: pointer;
+        width: 180px;
+        height: 60px;
+    }
+}
+
+#b9 {
+    border: 1px solid blue;
+    color: blue;
+    background-color: white;
+}
+
+#b9:hover {
+    animation-name: b9;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes b9 {
+    0% {
+        background-color: rgb(80, 98, 255);
+        cursor: pointer;
+        width: 160px;
+        height: 40px;
+    }
+
+    50% {
+        background-color: rgba(171, 15, 233, 0.603);
+        color: black;
+        border-radius: 20px;
+        cursor: pointer;
+        width: 170px;
+        height: 50px;
+    }
+
+    100% {
+        background-color: rgb(226, 21, 147);
+        color: rgb(255, 255, 255);
+        border-radius: 20px;
+        cursor: pointer;
+        width: 180px;
+        height: 60px;
+    }
+}
+
+
+#b10 {
+    border: 1px solid blueviolet;
+    color: blueviolet;
+    background-color: white;
+}
+
+#b10:hover {
+    animation-name: b10;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes b10 {
+    0% {
+        background-color: rgb(226, 80, 255);
+        cursor: pointer;
+        width: 160px;
+        height: 40px;
+    }
+
+    50% {
+        background-color: rgba(229, 233, 15, 0.603);
+        color: black;
+        border-radius: 20px;
+        cursor: pointer;
+        width: 170px;
+        height: 50px;
+    }
+
+    100% {
+        background-color: rgb(226, 21, 147);
+        color: rgb(255, 255, 255);
+        border-radius: 20px;
+        cursor: pointer;
+        width: 180px;
+        height: 60px;
+    }
+}
+
+#b11 {
+    border: 1px solid darkorange;
+    color: darkgoldenrod;
+    background-color: white;
+}
+
+#b11:hover {
+    animation-name: b11;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes b11 {
+    0% {
+        background-color: coral;
+        cursor: pointer;
+        width: 160px;
+        height: 40px;
+    }
+
+    50% {
+        background-color: rgba(229, 233, 15, 0.603);
+        color: black;
+        border-radius: 20px;
+        cursor: pointer;
+        width: 170px;
+        height: 50px;
+    }
+
+    100% {
+        background-color: rgb(226, 21, 147);
+        color: rgb(255, 255, 255);
+        border-radius: 20px;
+        cursor: pointer;
+        width: 180px;
+        height: 60px;
+    }
+}
+
+#b12 {
+    border: 1px solid palevioletred;
+    color: palevioletred;
+    background-color: white;
+}
+
+#b12:hover {
+    animation-name: b12;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes b12 {
+    0% {
+        background-color: coral;
+        cursor: pointer;
+        width: 160px;
+        height: 40px;
+    }
+
+    50% {
+        background-color: rgba(229, 233, 15, 0.603);
+        color: black;
+        border-radius: 20px;
+        cursor: pointer;
+        width: 170px;
+        height: 50px;
+    }
+
+    100% {
+        background-color: rgb(226, 21, 147);
+        color: rgb(255, 255, 255);
+        border-radius: 20px;
+        cursor: pointer;
+        width: 180px;
+        height: 60px;
+    }
+}

@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#main-head {
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    height: 100px;
+}
+
+#div-head-center {
+    margin: 10px auto;
+}
+
+#div-head-center p {
+    color: gray;
+    padding-top: 10px;
+}
+
+#div-head-left p {
+    color: gray;
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+#b1 {
+    margin-top: 15px;
+    background-color: rgb(255, 81, 0);
+    width: 100px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    margin-left: 72px;
+}
+
+#main-head-bottom {
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    border: 1px solid rgb(38, 0, 255);
+    height: 70px;
+    background-color: rgb(3, 3, 37);
+    color: white;
+}
+
+#main-head-bottom ul {
+    list-style-type: none;
+}
+
+#main-head-bottom ul li {
+    float: left;
+    padding-left: 25px;
+    padding-top: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+#search-bar {
+    margin-left: 50%;
+}
+
+.input-text {
+    border-radius: 70px;
+    background-color: rgb(3, 3, 37);
+    border: 1px solid gray;
+    box-shadow: 0.5px 0.5px 1px rgb(3, 3, 37);
+    width: 200px;
+    height: 30px;
+    margin-right: 110px;
+    color: white;
+    padding-left: 20px;
+    font-size: 15px;
+    position: relative;
+    margin-top: 18px;
+    z-index: 1;
+}
+
+#icon-search {
+    position: absolute;
+    color: gray;
+    top: 128px;
+    right: 264px;
+    z-index: 3;
+}
+
+#div-img-cover {
+    height: 600px;
+}
+
+#img-cover {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* opacity: 0.9; */
+}
+
+#h4 {
+    position: absolute;
+    top: 390px;
+    z-index: 2;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    margin-left: 180px;
+}
+
+#p-cover {
+    position: absolute;
+    top: 530px;
+    z-index: 2;
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    margin-left: 180px;
+}
+
+#b3 {
+    background: rgb(255, 81, 0);
+    width: 110px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    z-index: 3;
+    position: absolute;
+    bottom: 10px;
+    left: 170px;
+}
+
+#div-footer {
+    display: flex;
+}
+
+.footer-odd {
+    width: 25%;
+    height: 250px;
+    background-color: rgb(255, 81, 0);
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.footer-even {
+    width: 25%;
+    height: 250px;
+    background-color: rgb(3, 3, 37);
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.p-end {
+    padding-top: 25px;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

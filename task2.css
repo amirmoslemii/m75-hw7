@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#Menu {
+    background-color: rgb(4, 4, 94);
+    height: 50px;
+    width: 100%;
+    display: flex;
+}
+
+#Menu li {
+    cursor: pointer;
+    color: white;
+    list-style: none;
+    display: inline-block;
+    padding-left: 20px;
+}
+
+#home {
+    color: rgb(212, 135, 35);
+}
+
+#bar {
+    color: white;
+    font-size: 24px;
+    padding-top: 12px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+#main2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-left: 190px;
+    margin-right: 190px;
+    height: 800px;
+    position: relative;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+    height: 350px;
+    background-color: white;
+    box-shadow: 0.5px 0.5px 5px gray;
+    display: inline-block;
+}
+
+.image-person {
+    margin-left: 10px;
+    padding-left: 4px;
+    padding-top: 4px;
+    margin-top: 8px;
+    border-radius: 50%;
+    width: 45px;
+    width: 45px;
+    float: left;
+}
+
+#sepia {
+    filter: invert(80%);
+}
+
+#saturate {
+    filter: saturate(7);
+}
+
+.div-title {
+    margin-left: 8px;
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.p-card-tatle {
+    margin-top: 30px;
+    font-size: 22px;
+    line-height: 0;
+}
+
+.Subhead {
+    color: gray;
+    font-size: 15px;
+    margin-top: -5px;
+}
+
+
+.image-card {
+    margin-top: 10px;
+    width: 300px;
+    height: 150px;
+}
+
+.p-card-bottom {
+    margin: 10px 10px;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+
+span {
+    color: gray;
+    font-size: 13px;
+    margin-left: 12px;
+}
+
+.box {
+    width: 98%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0.5px 0.5px 5px gray;
+    height: 180px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.p-bold {
+    font-size: 20px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.p-gray {
+    color: gray;
+    font-size: 15px;
+    padding-left: 70px;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#more-info {
+    color: blue;
+    font-size: 12px;
+    padding-left: 50px;
+    margin-top: 30px;
+}
+
+.box-2 {
+    width: 70%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0.5px 0.5px 5px gray;
+    height: 180px;
+    margin-top: 20px;
+    float: left;
+    margin-right: 35px;
+    position: relative;
+}
+
+#box-small {
+    float: left;
+    width: calc(30% - (+35px));
+    height: 180px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0.5px 0.5px 5px gray;
+    margin-top: 20px;
+    position: relative;
+}
+
+.box-yellow {
+    top: 20px;
+    right: 20px;
+    position: absolute;
+    float: left;
+    width: 44%;
+    height: 130px;
+    background-color: rgb(255, 230, 0);
+}
+
+.p-bold2 {
+    margin-left: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.p-gray2 {
+    margin-left: 10px;
+    font-size: 15px;
+    color: gray;
+    line-height: 0px;
+    margin-bottom: 100px;
+}
+
+.box-yellow2 {
+    top: 20px;
+    right: 20px;
+    position: absolute;
+    float: left;
+    width: 44%;
+    height: 130px;
+    background-color: rgb(255, 230, 0);
+}
